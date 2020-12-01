@@ -1,0 +1,2 @@
+# OntologyConflictEliminationMethodBasedonMulti-objectiveIntegerLinearProgramming
+code of paper OntologyConflictEliminationMethodBasedonMulti-objectiveIntegerLinearProgramming
