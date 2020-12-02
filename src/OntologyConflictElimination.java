@@ -36,12 +36,10 @@ public class OntologyConflictElimination {
 
         ArrayList<HashSet<OWLAxiom>> solutionPool = new ArrayList<>();
 
-        for (int r = 0; r < 100; r++) {
-
+        for (int r = 0; r < 1000; r++) {
             Random rand = new Random();
             rand.setSeed(r);
             Collections.shuffle(axioms, rand);
-            Collections.shuffle(conflicts);
 
             String mpsPath = "";
             if (ILPParameter.getString("modelType").equals("SINGLE")) {
