@@ -72,7 +72,6 @@ public class ILPTools {
         for (int axiomIndex = 0; axiomIndex < axioms.size(); axiomIndex++) {
             OWLAxiom axiom = axioms.get(axiomIndex);
             String binary = "x" + (axiomIndex + 1);
-            //outputs.println(axioms.get(axiomIndex).toString());
             outputs.println("      " + binary + "  obj   " + 1);
             for (int conflictIndex = 0; conflictIndex < conflicts.size(); conflictIndex++) {
                 HashSet<OWLAxiom> oneMups = conflicts.get(conflictIndex);
@@ -127,7 +126,6 @@ public class ILPTools {
             String binary = "x" + (axiomIndex + 1);
             double reciShapleyValue = calculateShapleyValue(axiom, conflicts);
 
-
             outputs.println("      " + binary + "  obj   " + reciShapleyValue);
             for (int conflictIndex = 0; conflictIndex < conflicts.size(); conflictIndex++) {
                 HashSet<OWLAxiom> oneMups = conflicts.get(conflictIndex);
@@ -172,14 +170,12 @@ public class ILPTools {
         outputs.println("ROWS");
         outputs.println("      N obj");
 
-
         for (int conflictIndex = 1; conflictIndex <= conflicts.size(); conflictIndex++) {
             outputs.println("      G c" + conflictIndex);
         }
 
         int extrline = (conflicts.size() + 1);
         outputs.println("      L c" + extrline);
-
 
         outputs.println();
         outputs.println("COLUMNS");
@@ -188,7 +184,7 @@ public class ILPTools {
             String binary = "x" + (axiomIndex + 1);
             double reciShapleyValue = calculateShapleyValue(axiom, conflicts);
 
-            outputs.println("      " + binary + "  obj   " + -reciShapleyValue);
+            outputs.println("      " + binary + "  obj   " + reciShapleyValue);
             for (int conflictIndex = 0; conflictIndex < conflicts.size(); conflictIndex++) {
                 HashSet<OWLAxiom> oneMups = conflicts.get(conflictIndex);
                 if (oneMups.contains(axiom)) {

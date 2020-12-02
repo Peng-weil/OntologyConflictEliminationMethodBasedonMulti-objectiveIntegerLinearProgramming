@@ -38,7 +38,7 @@ public class OntologyConflictElimination {
 
         int poolSize = 0;
         System.out.println("first feasible solution：");
-        for (int r = 0; r < 1000; r++) {
+        for (int r = 0; r < 500; r++) {
             Random rand = new Random();
             rand.setSeed(r);
             Collections.shuffle(axioms, rand);
@@ -62,7 +62,7 @@ public class OntologyConflictElimination {
             if (!solutionPool.contains(solutionSet)) {
                 solutionPool.add(solutionSet);
             }
-            System.out.print(GetProces(1000, r + 1));
+            System.out.print(GetProces(500, r + 1));
             if (poolSize != (solutionPool.size())) {
                 System.out.println();
                 System.out.println((r + 1) + ". SOLUTION POOL SIZE : " + solutionPool.size());

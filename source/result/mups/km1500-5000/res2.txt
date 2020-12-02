@@ -1,0 +1,391 @@
+axiom number: 5000
+Number of Ucs: 1375
+Uc 1 : <http://www.text2onto.org/ontology#information_memory_c>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 4 ( total = 5 )
+Layer_2 : 2 ( total = 7 )
+Layer_3 : 143 ( total = 150 )
+  Found explanation <1> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] DisjointClasses(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_4 : 222 ( total = 372 )
+the number of hs_local: 5
+Layer_5 : 990 ( total = 1362 )
+the number of hs_local: 5
+  Found explanation <2> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#concept_c> <http://www.text2onto.org/ontology#view_c>)
+  [7] DisjointClasses(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#view_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#concept_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <3> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [6] DisjointClasses(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <4> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#activity_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#concept_c> <http://www.text2onto.org/ontology#view_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#view_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [8] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#concept_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <5> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#communication_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] DisjointClasses(<http://www.text2onto.org/ontology#communication_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <6> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#communication_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [8] DisjointClasses(<http://www.text2onto.org/ontology#communication_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <7> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#individual_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] DisjointClasses(<http://www.text2onto.org/ontology#individual_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <8> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#component_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#component_c>)
+  [8] DisjointClasses(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <9> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [6] DisjointClasses(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <10> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#field_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#communication_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [8] DisjointClasses(<http://www.text2onto.org/ontology#communication_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#field_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <11> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#field_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [7] DisjointClasses(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#field_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <12> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#communication_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [11] DisjointClasses(<http://www.text2onto.org/ontology#communication_c> <http://www.text2onto.org/ontology#resource_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <13> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#individual_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] DisjointClasses(<http://www.text2onto.org/ontology#individual_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#process_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <14> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#activity_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [10] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <15> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#activity_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#component_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#component_c>)
+  [8] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <16> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#communication_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#process_c>)
+  [8] DisjointClasses(<http://www.text2onto.org/ontology#communication_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <17> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#structure_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#activity_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#structure_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [11] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <18> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#component_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#component_c> <http://www.text2onto.org/ontology#concept_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#concept_c> <http://www.text2onto.org/ontology#view_c>)
+  [9] DisjointClasses(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#resource_c> <http://www.text2onto.org/ontology#skill_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#view_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <19> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#activity_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [10] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <20> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#activity_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [8] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <21> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#activity_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#component_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#component_c> <http://www.text2onto.org/ontology#concept_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#concept_c> <http://www.text2onto.org/ontology#view_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#view_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [10] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <22> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [5] DisjointClasses(<http://www.text2onto.org/ontology#paradigm_c> <http://www.text2onto.org/ontology#study_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#paradigm_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <23> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#part_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#structure_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#part_c> <http://www.text2onto.org/ontology#component_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [10] DisjointClasses(<http://www.text2onto.org/ontology#component_c> <http://www.text2onto.org/ontology#structure_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <24> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#field_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#activity_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#field_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [11] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <25> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#communication_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#knowledge_c> <http://www.text2onto.org/ontology#resource_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [11] DisjointClasses(<http://www.text2onto.org/ontology#communication_c> <http://www.text2onto.org/ontology#resource_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <26> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [2] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#structure_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [4] DisjointClasses(<http://www.text2onto.org/ontology#activity_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#structure_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#activity_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [12] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
+  Found explanation <27> for concept <http://www.text2onto.org/ontology#information_memory_c>
+  [1] SubClassOf(<http://www.text2onto.org/ontology#memory_c> <http://www.text2onto.org/ontology#computer_system_c>)
+  [2] DisjointClasses(<http://www.text2onto.org/ontology#communication_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [3] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#process_c>)
+  [4] SubClassOf(<http://www.text2onto.org/ontology#structure_c> <http://www.text2onto.org/ontology#knowledge_c>)
+  [5] SubClassOf(<http://www.text2onto.org/ontology#process_c> <http://www.text2onto.org/ontology#communication_c>)
+  [6] SubClassOf(<http://www.text2onto.org/ontology#study_c> <http://www.text2onto.org/ontology#structure_c>)
+  [7] SubClassOf(<http://www.text2onto.org/ontology#computer_system_c> <http://www.text2onto.org/ontology#system_c>)
+  [8] SubClassOf(<http://www.text2onto.org/ontology#information_memory_c> <http://www.text2onto.org/ontology#memory_c>)
+  [9] SubClassOf(<http://www.text2onto.org/ontology#system_c> <http://www.text2onto.org/ontology#method_c>)
+  [10] SubClassOf(<http://www.text2onto.org/ontology#method_c> <http://www.text2onto.org/ontology#study_methodology_c>)
+  [11] SubClassOf(<http://www.text2onto.org/ontology#study_methodology_c> <http://www.text2onto.org/ontology#methodology_c>)
+  [12] SubClassOf(<http://www.text2onto.org/ontology#methodology_c> <http://www.text2onto.org/ontology#study_c>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.text2onto.org/ontology#information_memory_c>> ? true
+------------------
