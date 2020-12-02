@@ -63,7 +63,6 @@ public class OntologyConflictElimination {
                 solutionPool.add(solutionSet);
             }
             System.out.print(GetProces(1000, r + 1));
-            Thread.sleep(20);
             if (poolSize != (solutionPool.size())) {
                 System.out.println();
                 System.out.println((r + 1) + ". SOLUTION POOL SIZE : " + solutionPool.size());
