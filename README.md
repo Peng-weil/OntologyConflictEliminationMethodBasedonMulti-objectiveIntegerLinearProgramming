@@ -3,4 +3,4 @@ code of paper OntologyConflictEliminationMethodBasedonMulti-objectiveIntegerLine
 
 dependent packages：source/jar; 
  
-dependent software:CPlex.
+dependent software: CPlex.
