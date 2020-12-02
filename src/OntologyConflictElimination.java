@@ -33,9 +33,11 @@ public class OntologyConflictElimination {
 
         System.out.println("filter axioms  : " + axioms.size());
         System.out.println("conflitcs      : " + conflicts.size());
-
+        System.out.println("solve type     : " + ILPParameter.getString("modelType"));
         ArrayList<HashSet<OWLAxiom>> solutionPool = new ArrayList<>();
 
+        int poolSize = 0;
+        System.out.println("first feasible solution：");
         for (int r = 0; r < 1000; r++) {
             Random rand = new Random();
             rand.setSeed(r);
@@ -60,8 +62,13 @@ public class OntologyConflictElimination {
             if (!solutionPool.contains(solutionSet)) {
                 solutionPool.add(solutionSet);
             }
-
-            System.out.println((r + 1) + ". SOLUTION POOL SIZE : " + solutionPool.size());
+            System.out.print(GetProces(1000, r + 1));
+            Thread.sleep(20);
+            if (poolSize != (solutionPool.size())) {
+                System.out.println();
+                System.out.println((r + 1) + ". SOLUTION POOL SIZE : " + solutionPool.size());
+                poolSize = solutionPool.size();
+            }
 
         }
     }
@@ -114,17 +121,30 @@ public class OntologyConflictElimination {
         if (cplex.populate()) {
             IloLPMatrix lp = (IloLPMatrix) cplex.LPMatrixIterator().next();
             double[] x = cplex.getValues(lp);
-            System.out.println("first feasible solution：");
 
             for (int j = 0; j < x.length; j++) {
                 if (x[j] == 1.0D) {
                     solution.add("x" + (j + 1));
-//                    System.out.print(" x" + (j + 1));
                 }
             }
         }
-        System.out.println();
         return solution;
     }
 
+    static String GetProces(int total, int finish) {
+        StringBuilder str = new StringBuilder();
+        int ifinish = (int) (finish * (100.0 / total));
+        str.append("\r解法池搜索[");
+        for (int i = 0; i < 100; i++) {
+            if (i > ifinish) {
+                str.append(" ");
+            } else if (i == ifinish) {
+                str.append(">");
+            } else {
+                str.append("=");
+            }
+        }
+        str.append("]" + finish + "/" + total);
+        return str.toString();
+    }
 }
