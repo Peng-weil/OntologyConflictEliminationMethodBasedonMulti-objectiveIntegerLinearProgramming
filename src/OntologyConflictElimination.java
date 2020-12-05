@@ -61,6 +61,8 @@ public class OntologyConflictElimination {
                 solutionSet.add(ax);
             }
             if (!solutionPool.contains(solutionSet)) {
+                System.out.println();
+                System.out.println("solution size : " + solutionSet.size());
                 solutionPool.add(solutionSet);
             }
             System.out.print(GetProces(epoch, r + 1));

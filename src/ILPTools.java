@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.ResourceBundle;
 
 /**
  * @author: Peng-weil
@@ -24,6 +25,9 @@ public class ILPTools {
 
 
     static double calculateShapleyValue(OWLAxiom axiom, ArrayList<HashSet<OWLAxiom>> conflicts) {
+        ResourceBundle ILPParameter = ResourceBundle.getBundle("parameters");
+        int precision = Integer.parseInt(ILPParameter.getString("precision"));
+
         double shapleyVlaue = 1.0D;
         long molecular = 0;
         long denominator = 1;
@@ -46,7 +50,7 @@ public class ILPTools {
             }
         }
         double d = (double) molecular / denominator;
-        d = (double) Math.round(d * 100) / 100;
+        d = (double) Math.round(d * precision) / precision;
         return d;
     }
 
